@@ -34,7 +34,7 @@ export default class IndexPage extends React.Component<IndexPageProps> {
       <Layout>
         <h1>{this.hello} Dashboard</h1>
         <div>
-          <Link to={'1'}>Page 1</Link>
+          <Link to={'/solutions/1'}>Page 1</Link>
         </div>
         <div>
           <Link to={'/404/'}>404</Link>
